@@ -11,7 +11,8 @@ const ThoughtForm = () => {
   const [thoughtText, setThoughtText] = useState("");
 
   const [characterCount, setCharacterCount] = useState(0);
-
+  // Invoke 'useMutation()' hook to return a Promise-based function and data about
+  // the ADD_THOUGHT mutation
   const [addThought, { error }] = useMutation(ADD_THOUGHT, {
     update(cache, { data: { addThought } }) {
       try {
@@ -37,7 +38,10 @@ const ThoughtForm = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
+    // Since mutation function is async, wrap in a 'try...catch' to catch any
+    // network errors from throwing due to a failed request.
     try {
+      // Execute mutation and pass in defined parameter data as variables 
       const { data } = await addThought({
         variables: {
           thoughtText,
@@ -62,7 +66,7 @@ const ThoughtForm = () => {
 
   return (
     <div>
-      <h3>What's on your techy mind?</h3>
+      <h3>What's on your Daddy mind?</h3>
 
       {Auth.loggedIn() ? (
         <>
