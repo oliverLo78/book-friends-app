@@ -1,5 +1,5 @@
 # father-thoughts-app
-A book landing page website where users can sign up, sign in to a book website 
+A book landing page website where users can sign up, sign in to a blog type website 
 
 # MERN w/ GraphQL Boilerplate
 MERN stack boiler plate with Sign Up / Login / Logout functionality using GraphQL, Apollo Server, and Apollo Client. Can Sign Up / Login and be taken to a Dashboard where user can logout using functionality set up in client/utils/auth.js. No styling, just basic Sign Up / Login / Logout functionality. Also uses React Router.
