@@ -1,4 +1,4 @@
-# book-friends-app
+# father-thoughts-app
 A book landing page website where users can sign up, sign in to a book website 
 
 # MERN w/ GraphQL Boilerplate
