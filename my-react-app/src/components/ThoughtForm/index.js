@@ -66,7 +66,7 @@ const ThoughtForm = () => {
 
   return (
     <div>
-      <h3>What's on your Daddy mind?</h3>
+      <h3>What's your thoughts of the book?</h3>
 
       {Auth.loggedIn() ? (
         <>
