@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/brain-book',
+  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/brian-book',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
