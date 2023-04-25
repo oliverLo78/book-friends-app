@@ -45,3 +45,16 @@ if you are having issues access the Apollo Sandbox, inside server/server.js line
 
 in the root directory, run npm run develop
 
+# Screenshots
+
+![Screenshot 2023-04-25 161754](https://user-images.githubusercontent.com/109435666/234394965-8500bf6f-6058-4a8e-9c62-fb9c53636400.png)
+
+![Screenshot 2023-04-25 161843](https://user-images.githubusercontent.com/109435666/234395042-90be07ab-3f04-481d-bb0c-785367432085.png)
+
+![Screenshot 2023-04-25 161942](https://user-images.githubusercontent.com/109435666/234395065-8eff36a5-6b72-4d7d-8064-440525f3f7db.png)
+
+![Screenshot 2023-04-25 161957](https://user-images.githubusercontent.com/109435666/234395093-0aff5d8b-b3d3-4423-8d5f-2e403dedaf5b.png)
+
+
+
+
