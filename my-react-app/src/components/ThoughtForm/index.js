@@ -51,7 +51,7 @@ const ThoughtForm = () => {
 
       setThoughtText("");
     } catch (err) {
-      console.error(err);
+      //console.error(err);
     }
   };
 

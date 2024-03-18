@@ -1,0 +1,48 @@
+- Home
+- Authentication
+  - Sign Up
+  - Login
+  - Logout
+
+- Dashboard (Accessible after authentication)
+  - Profile
+    - Edit Profile
+  - Wishlist
+  - Order History
+
+- Browse Books
+  - All Books
+  - Search Results
+  - Book Details
+    - Reviews and Ratings
+    - Add to Wishlist
+    - Add to Cart
+
+- Shopping Cart
+  - Cart Contents
+  - Checkout Process
+    - Shipping Information
+    - Billing Information
+    - Order Review
+    - Payment
+    - Order Confirmation
+
+- Admin Panel (Accessible for authorized administrators)
+  - Manage Books
+    - Add New Book
+    - Edit Book Details
+    - Delete Book
+
+  - Manage Users
+    - View User List
+    - Edit User Details
+    - Delete User
+
+  - Manage Orders
+    - View Order List
+    - Update Order Status
+    
+- Legal Pages
+  - Terms of Service
+  - Privacy Policy
+  - Refund Policy
