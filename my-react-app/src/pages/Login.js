@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/mutations';
+// IMPORT THE QUERY_ME query
+import { QUERY_ME } from '../utils/queries';
 
 import Auth from '../utils/auth';
 
@@ -22,10 +24,17 @@ const Login = (props) => {
   // submit form
   const handleFormSubmit = async (event) => {
     event.preventDefault();
-    console.log(formState);
+    
     try {
       const { data } = await login({
         variables: { ...formState },
+        update: (cache, { data }) => {
+          // Update the cache with the user's data after a successful login
+          cache.writeQuery({
+            query: QUERY_ME,
+            data: { me: data.login.user  },
+          });
+        },
       });
 
       Auth.login(data.login.token);

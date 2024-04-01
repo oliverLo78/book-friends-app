@@ -1,0 +1,73 @@
+### Home
+- **Navigation Bar** (Links to Home, Authentication, Browse Books, Shopping Cart, Admin Panel)
+- **Hero Section** (Welcome message, Call-to-action button)
+- **Featured Books Section** (Carousel or grid displaying featured books)
+
+### Authentication
+- **Sign Up Form** (Fields for username, email, password, sign up button)
+- **Login Form** (Fields for email, password, login button)
+- **Logout Button** (Redirects to Home)
+
+### Dashboard
+- **Navigation Bar**
+- **Profile Section**
+  - User Information (Name, email, profile picture)
+  - Edit Profile Button
+- **Wishlist Section**
+  - List of books in the wishlist
+- **Order History Section**
+  - List of past orders with details
+
+### Browse Books
+- **Navigation Bar**
+- **Search Bar**
+- **Filter Options** (Genre, price range, etc.)
+- **Book Listings**
+  - Book Cover
+  - Title
+  - Author
+  - Price
+  - Add to Wishlist Button
+  - Add to Cart Button
+
+### Book Details
+- **Navigation Bar**
+- **Book Cover**
+- **Title**
+- **Author**
+- **Description/Synopsis**
+- **Reviews and Ratings**
+- **Add to Wishlist Button**
+- **Add to Cart Button**
+
+### Shopping Cart
+- **Navigation Bar**
+- **Cart Contents**
+  - List of items in the cart (Book cover, title, price, quantity, subtotal)
+  - Update Quantity
+  - Remove Item Button
+- **Checkout Process**
+  - Shipping Information Form
+  - Billing Information Form
+  - Order Summary
+  - Payment Form
+  - Order Confirmation
+
+### Admin Panel
+- **Navigation Bar**
+- **Manage Books Section**
+  - Add New Book Form
+  - Edit Book Details Form
+  - Delete Book Button
+- **Manage Users Section**
+  - User List
+  - Edit User Details Form
+  - Delete User Button
+- **Manage Orders Section**
+  - Order List
+  - Update Order Status Form
+
+### Legal Pages
+- **Terms of Service**
+- **Privacy Policy**
+- **Refund Policy**
