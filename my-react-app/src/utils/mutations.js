@@ -54,3 +54,18 @@ export const ADD_COMMENT = gql`
     }
   }
 `;
+
+// export const ADD_BOOK = gql`
+//   mutation addBook($bookText: String!) {
+//     addBook(bookText: $bookText) {
+//       _id
+//       bookText
+//       bookAuthor
+//       createdAt
+//       comments {
+//         _id
+//         commentText
+//       }
+//     }
+//   }
+// `;

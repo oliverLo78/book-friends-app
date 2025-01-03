@@ -15,9 +15,27 @@ const Header = () => {
           <Link className="text-light" to="/">
             <h1 className="m-0">Father Thoughts</h1>
           </Link>
-          <p className="m-0">Get into the mind of a father.</p>
+          <p className="m-0">Get into the mind of Brian Heilig.</p>
         </div>
         <div>
+        <div className="d-flex align-items-center">
+          <nav className="navbar navbar-expand-lg navbar-light">
+            <div className="container-fluid">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/browse-books">
+                    Browse Books
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/shopping-cart">
+                    Shopping Cart
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
           {Auth.loggedIn() ? (
             <>
               <Link className="btn btn-lg btn-info m-2" to="/me">

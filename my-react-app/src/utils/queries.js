@@ -62,3 +62,20 @@ export const QUERY_ME = gql`
     }
   }
 `;
+
+// export const GET_FEATURED_BOOKS = gql`
+//   query getFeaturedBooks {
+//     featuredBooks {
+//       _id
+//       createdAt
+//       bookAuthor
+//       bookText
+//       comments {
+//         _id
+//         commentAuthor
+//         commentText
+//         createdAt
+//       }
+//     }
+// `;
+
